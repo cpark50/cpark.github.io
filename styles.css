@@ -1,0 +1,44 @@
+body {
+    background-color: gainsboro;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-size: 120%;
+    transition: all .4s ease;
+}
+
+li {
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.top {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.aboutme {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#myName {
+    padding: 50px;
+    text-align: center;
+}
